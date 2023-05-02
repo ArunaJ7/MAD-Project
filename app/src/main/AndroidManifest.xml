@@ -12,28 +12,23 @@
         android:theme="@style/Theme.MADProject"
         tools:targetApi="31">
         <activity
-            android:name=".userAccount"
-            android:exported="false"/>
-
-
+            android:name=".Payment"
+            android:exported="true" />
         <activity
-            android:name=".Feedback"
+            android:name=".userAccount"
             android:exported="false" />
         <activity
+            android:name=".Feedback"
+            android:exported="true" />
+        <activity
             android:name=".Login"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
-
-
-
         <activity
             android:name=".Srvices_S"
             android:exported="true">
